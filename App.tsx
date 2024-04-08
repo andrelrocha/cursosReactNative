@@ -1,14 +1,15 @@
 import React from 'react';
 import { SafeAreaView, View } from 'react-native';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+//import Home from './src/screens/Home';
 import Login from './src/screens/Login';
-import Home from './src/screens/Home';
+import { styles } from './styles';	
 
 function App() {
   return (
-    <View>
+    <View style={styles.body}>
       <SafeAreaView>
-        <Home />
+        {/* <Home /> */}
+        <Login />
       </SafeAreaView>
     </View>
   );

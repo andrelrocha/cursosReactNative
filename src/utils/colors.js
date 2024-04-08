@@ -8,6 +8,7 @@ export const colors = {
   black: '#000000',
   gray: '#808080',
   sage: '#CCC9A1',
-  darkWhite: '#F0FFCE',
-  lightBlue: '#E4D9FF'
+  greenWeak: '#F0FFCE',
+  lightBlue: '#E4D9FF',
+  whiteSmoke: "#F4F4F4"
 };
